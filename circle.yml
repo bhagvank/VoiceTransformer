@@ -1,0 +1,24 @@
+machine:
+  pre:
+    - curl -O http://apache.osuosl.org/maven/maven-3/3.1.1/binaries/apache-maven-3.1.1-bin.tar.gz && tar xvf apache-maven-3.1.1-bin.tar.gz -C ~/.m2
+  environment:
+    PATH: $HOME/.m2/apache-maven-3.1.1/bin:$PATH
+    M2_HOME: $HOME/.m2/apache-maven-3.1.1/
+    M2: $HOME/.m2/apache-maven-3.1.1/bin/
+    ANDROID_HOME: /usr/local/android-sdk-linux
+
+dependencies:
+  pre:
+    - echo y | android update sdk --all --no-ui --force --filter "extra-android-m2repository"
+    - echo y | android update sdk --no-ui --all --filter "tools"
+    - echo y | android update sdk --no-ui --all --filter "build-tools-23.0.2"
+
+test:
+  override:
+    - ./gradlew testDebug
+
+deployment:
+  master:
+      branch: master
+      commands:
+        - ./gradlew uploadArchives -PsonatypeUsername=$SONATYPE_NEXUS_SNAPSHOTS_USERNAME -PsonatypePassword=$SONATYPE_NEXUS_SNAPSHOTS_PASSWORD

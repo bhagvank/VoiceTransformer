@@ -1,0 +1,102 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [:library] /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:design:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/8d822c2501befbe9cb8e3135a8f65d39/design-23.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/9fbe4cb34eedb31347f9240b51adeea4/appcompat-v7-23.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/f7e4567c948416efcd12fc171370c6da/animated-vector-drawable-23.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/6e3d3f2bcb95c935dfc2cd1f760f6eb4/support-vector-drawable-23.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:recyclerview-v7:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/f77551b3fd0d499fa64cb6f55d8bdb47/recyclerview-v7-23.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/efdac635db9933276fadc500191ba840/support-v4-23.2.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:2:11-49
+		INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:3:5-63
+application
+ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:5:5-21:19
+MERGED from [:library] /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-15:19
+MERGED from [:library] /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:design:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/8d822c2501befbe9cb8e3135a8f65d39/design-23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/8d822c2501befbe9cb8e3135a8f65d39/design-23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/9fbe4cb34eedb31347f9240b51adeea4/appcompat-v7-23.2.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/9fbe4cb34eedb31347f9240b51adeea4/appcompat-v7-23.2.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/f7e4567c948416efcd12fc171370c6da/animated-vector-drawable-23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/f7e4567c948416efcd12fc171370c6da/animated-vector-drawable-23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/6e3d3f2bcb95c935dfc2cd1f760f6eb4/support-vector-drawable-23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/6e3d3f2bcb95c935dfc2cd1f760f6eb4/support-vector-drawable-23.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/efdac635db9933276fadc500191ba840/support-v4-23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/efdac635db9933276fadc500191ba840/support-v4-23.2.0/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:10:9-40
+activity#org.voicetext.voicetransform.MainActivity
+ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:11:9-20:20
+	android:label
+		ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:13:13-45
+	android:theme
+		ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:14:13-56
+	android:name
+		ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:12:13-69
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml
+MERGED from [:library] /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:library] /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/library/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/8d822c2501befbe9cb8e3135a8f65d39/design-23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/8d822c2501befbe9cb8e3135a8f65d39/design-23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/9fbe4cb34eedb31347f9240b51adeea4/appcompat-v7-23.2.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/9fbe4cb34eedb31347f9240b51adeea4/appcompat-v7-23.2.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/f7e4567c948416efcd12fc171370c6da/animated-vector-drawable-23.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/f7e4567c948416efcd12fc171370c6da/animated-vector-drawable-23.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/6e3d3f2bcb95c935dfc2cd1f760f6eb4/support-vector-drawable-23.2.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/6e3d3f2bcb95c935dfc2cd1f760f6eb4/support-vector-drawable-23.2.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:recyclerview-v7:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/f77551b3fd0d499fa64cb6f55d8bdb47/recyclerview-v7-23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/f77551b3fd0d499fa64cb6f55d8bdb47/recyclerview-v7-23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/efdac635db9933276fadc500191ba840/support-v4-23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/efdac635db9933276fadc500191ba840/support-v4-23.2.0/AndroidManifest.xml:20:5-43
+INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.2.0] /Users/bhagvan.kommadi/.gradle/caches/transforms-2/files-2.1/9fbe4cb34eedb31347f9240b51adeea4/appcompat-v7-23.2.0/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bhagvan.kommadi/Desktop/voice/speakerbox-master/speakerbox-master/app/src/main/AndroidManifest.xml

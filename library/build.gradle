@@ -1,0 +1,47 @@
+apply plugin: 'com.android.library'
+
+android {
+  compileSdkVersion 22
+  buildToolsVersion "22.0.1"
+
+  defaultConfig {
+    minSdkVersion 15
+    targetSdkVersion 22
+    versionCode 1
+    versionName "1.0"
+  }
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+  }
+  sourceSets {
+    test {
+      java.srcDir file('src/test/java')
+      java.srcDir file('build/generated/source/r/debug')
+    }
+  }
+}
+
+group = GROUP
+version = VERSION_NAME
+
+dependencies {
+  api 'com.android.support:appcompat-v7:22.2.0'
+  testImplementation 'junit:junit:4.13'
+  testImplementation 'org.robolectric:robolectric:4.3.1'
+  testImplementation 'org.assertj:assertj-core:3.16.1'
+  testImplementation 'org.easytesting:fest-reflect:1.4.1'
+
+}
+
+tasks.withType(Test) {
+  testLogging {
+    exceptionFormat "full"
+    events "started", "skipped", "passed", "failed"
+    showStandardStreams true
+  }
+}
+
+apply from: file('gradle-mvn-push.gradle')
